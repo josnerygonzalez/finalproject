@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300;400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 5px 0px;
+    background-color: #ffffff;
+}
+
+header{
+    width: 1000px;
+    height: auto;
+    padding: 10px 0;
+
+}
+
+.menu{
+    width: 1000px;
+    height: 35px;
+    border-bottom:2px solid rgba(128, 128, 128, 0.082);
+    text-align: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.205);
+    color:  rgba(218, 165, 32, 0.877);
+    padding: 5px 15px;
+    transition: all .2s;
+}
+
+.logo{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    position: static;
+    border-bottom:2px solid rgba(128, 128, 128, 0.082);
+
+}
+
+.logo img{
+    margin-top: 20px;
+}
+
+.development{
+    width: 1000px;
+    height: 2180px;
+}
+
+.left{
+    width: 680px;
+    height: auto;
+    float: left;
+}
+
+
+.content{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.title h4{
+    padding: 5px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.title h4 a{
+    font-size: 15px;
+    color: rgb(230, 167, 7);
+    text-decoration: none;
+    
+}
+
+.title h3{
+    padding: 5px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    
+}
+
+.title h3 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 30px;
+}
+
+.title h3 a:hover{
+    color: gray;
+    transition: all .2s;
+}
+
+.title p{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.61);
+    padding: 5px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.written img{
+    width: 600px;
+    height: 400px;
+}
+
+.written p{
+    font-size: 15px;
+    color: gray;
+    text-align: justify;
+    margin: 15px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.written h4{
+    padding: 10px 0;
+    font-family: 'Amatic SC', cursive;
+    font-weight: normal;
+}
+
+.written h4 a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    border-bottom:2px solid rgba(235, 182, 47, 0.336);
+    padding: 5px 10px;
+}
+
+.written h4 a:hover{
+    color: rgba(218, 165, 32, 0.548);
+    transition: all .2s;
+}
+
+.comments{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    box-shadow: 2px 2px 2px gray;
+    height: 35px;
+}
+
+.comments p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+    
+}
+
+.comments p a{
+    float: left;
+    text-decoration: none;
+    color: gray;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.note{
+    float: left;
+}
+
+.vectors{
+    float: right;
+}
+
+.vectors{
+    margin-right: 20px;
+}
+
+.vectors a img{
+    margin-top: 5px;
+    width: 15px;
+    padding: 5px;
+}
+
+.end{
+    margin-top: 30px;
+    height: 35px;
+    padding: 0px 20px;
+    background: rgba(218, 214, 214, 0.199);
+
+}
+
+.inicio{
+    text-align: center;
+}
+
+.inicio p{
+    padding-top: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.inicio p a{
+    color: gray;
+    text-decoration: none;
+}
+
+
+.right{
+    width: 280px;
+    height: 2100px;
+    float: right;
+    padding-right: 10px;
+}
+
+.about-me{
+    border: 2px solid rgba(128, 128, 128, 0.082);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me h3{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.about-me img{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: 5px 0;
+}
+
+.about-me p{
+    text-align: justify;
+    padding: 15px;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.line-aside{
+    width: 200px;
+    border: 1px solid rgba(218, 165, 32, 0.205);
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+.redes{
+    border: 2px solid rgba(128, 128, 128, 0.082);
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.redes h3{
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.icon{
+    width: 250px;
+    margin-left: 10px;
+}
+
+.icon a img{
+    box-shadow: 2px 2px 2px rgba(119, 116, 108, 0.205);
+    width: 40px;
+    padding: 10px 25px;
+}
+
+.icon a img:hover{
+    box-shadow: 2px 2px 2px rgba(109, 82, 15, 0.575);
+    transition: all .2s;
+}
+
+.category{
+    border: 2px solid rgba(128, 128, 128, 0.082);
+    margin-top: 50px;
+}
+
+.category h3{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.category ul{
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.category ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+.category ul li::before{
+    content: "\269D";
+    margin-right: 10px;
+}
+
+.category ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.category ul li a:hover{
+    font-weight: bold;
+    color: rgba(218, 165, 32, 0.548);
+    box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.205);
+    padding: 5px 10px;
+    transition: all .2s;
+}
+
+
+.content-post{
+    border: 2px solid rgba(128, 128, 128, 0.082);
+    margin-top: 50px;
+}
+
+.content-post h3{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+
+}
+
+.picture{
+    text-align: center;
+}
+
+.picture img{
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 2px rgba(218, 165, 32, 0.205);
+    margin-top: 10px;
+}
+
+.picture h4{
+    margin: 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.picture h4 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.picture h4 a:hover{
+    color: rgba(218, 165, 32, 0.753);
+    transition: all .2s;
+}
+
+.line-post{
+    width: 200px;
+    color: rgba(128, 128, 128, 0.11);
+    margin-left: 40px;
+}
+
+.contact{
+    border: 2px solid rgba(128, 128, 128, 0.082);
+    margin-top: 50px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.contact form{
+    padding: 10px;
+}
+
+.contact h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.contact label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+.contact input{
+    width: 245px;
+    height: 30px;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0 5px;
+    background:  rgba(218, 165, 32, 0.205);;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form .enter-message{
+    width: 245px;
+    height: 100px;
+    background:  rgba(218, 165, 32, 0.205);
+    border-radius: 10px;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 15px;
+   
+}
+
+.contact button a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 5px 15px;
+    
+}
+
+
+footer{
+    width: 1000px;
+    height: auto;
+    padding-top: 150px;
+}
+
+.formulario{
+    text-align: center;
+    padding: 10px 0;
+    height: auto;
+    background: rgba(218, 214, 214, 0.199);
+    border-top:1px solid hsla(43, 74%, 49%, 0.267);
+}
+
+.formulario label{
+    color: rgba(0, 0, 0, 0.76);
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.formulario input{
+    margin-top: 15px;
+    padding: 5px 60px;
+    background: #ffffff;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.formulario button{
+    padding: 0 10px;
+}
+
+.formulario button a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+.formulario button a:hover{
+    background-color: #ffffff;
+    color: rgb(184, 139, 26);
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.symbol{
+    width: 1000px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    background: rgba(218, 165, 32, 0.205);
+    border-top:1px solid hsla(43, 74%, 49%, 0.267)
+
+
+}
+
+.symbol img{
+    width: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
